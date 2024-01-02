@@ -16,6 +16,7 @@ loveMe.addEventListener('click', (e) => {
    }
 });
 
+// Inserting the heart into the image
 const createHeart = (e) => {
    const heart = document.createElement('i')
    heart.classList.add('fas');
